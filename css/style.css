@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.box{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/seher.jpg);
+    background-repeat: repeat-x;
+    background-position: 0 0;
+    background-size: cover;
+    position: relative;
+    animation: seher 15s linear infinite; 
+}
+img{
+    width: 200px;
+    position: absolute;
+    bottom: 30px;
+    left: 20px;
+}
+@keyframes seher {
+    from{
+        background-position: 0 0;
+    }
+    to{
+        background-position: 100% 0;
+    }
+  
+}
